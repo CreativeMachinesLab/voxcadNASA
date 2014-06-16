@@ -23,7 +23,7 @@ int entriesMutated = 4; // average number of genotype entrieds mutated each gene
 
 int keepVxaEvery = 0; // 0:never keep, -1: keep only if new best, 1: keep all VXAs, [n>0]: keep every [n]th generation
 
-int numGenerations = 5;
+int numGenerations = 20;
 
 int randomSeed = 0;
 //////////////////////////////////////////////////////////////////////
