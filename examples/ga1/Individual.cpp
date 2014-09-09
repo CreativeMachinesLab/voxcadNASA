@@ -329,7 +329,7 @@ void Individual::collectFitness()
 			    if (foundx!=std::string::npos)
 			    {
 			    	fitness = fabs(atof(line.substr(foundx+strlen("<FinalCOM_Dist>"),line.find("</")-(foundx+strlen("<FinalCOM_Dist>"))).c_str()));
-			    	fitness = fitness 
+			    	fitness = fitness;
 			    }
 			}
 
