@@ -3,6 +3,7 @@ CC=g++
 
 OPTFLAGS = -g -Wall
 
+LD_LIBRARY_PATH='pwd':$LD_LIBRARY_PATH ; export LD_LIBRARY_PATH
 
 NaiveGA_src = \
 Individual.cpp
